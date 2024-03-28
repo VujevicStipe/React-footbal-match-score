@@ -1,30 +1,30 @@
-# React + TypeScript + Vite
+# Football Match Results
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a football match results application built using React with TypeScript. It allows users to start and manage football matches, record scores for each team, and select the player who has scored a goal.
 
-Currently, two official plugins are available:
+## Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+You can view the live demo of the project [here](https://spectacular-daifuku-b1dc34.netlify.app/).
 
-## Expanding the ESLint configuration
+## Description
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+The Football Match Results application is designed to provide users with a platform to start and manage football matches, record scores for each team during the match, and select the player who has scored a goal. Team data is fetched from a JSON file (`Teams.json`) to provide information about the teams involved.
 
-- Configure the top-level `parserOptions` property like this:
+## Technologies Used
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+- React with TypeScript: Used for building the frontend interface and managing state.
+- JavaScript: Utilized for scripting functionalities and interactions.
+- CSS: Employed to style the application, ensuring visual coherence and a seamless user experience, including responsiveness for mobile devices.
+- JSON: Used to fetch team data from the `Teams.json` file, providing information about the teams involved.
+- Netlify: Hosting platform used for deploying the application online.
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Features
+
+- Start and manage football matches with customizable timers.
+- Record scores for each team during the match.
+- Select player who has scored a goal.
+
+## Contribution
+
+Contributions to the project are welcome. If you have any suggestions for further improvements or would like to report any issues, please feel free to submit a pull request or open an issue on GitHub.
+
