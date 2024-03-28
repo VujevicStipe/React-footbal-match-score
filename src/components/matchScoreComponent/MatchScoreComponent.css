@@ -1,0 +1,37 @@
+.match-score-component {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    & > * {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        img {
+            width: 5rem;
+        }
+        h2 {
+            margin: 0;
+        }
+        h3 {
+            font-size: 1.7rem;
+        }
+        h4 {
+            font-size: 1.2rem;
+        }
+        h4:after {
+            content: "'";
+            position: absolute;
+        }
+    }
+    & > *:not(.score) {
+        min-width: 130px;
+    }
+    .score {
+        min-width: 70px;
+    }
+}
