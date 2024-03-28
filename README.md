@@ -12,7 +12,7 @@ The Football Match Results application is designed to provide users with a platf
 
 ## Video GIF Showcase
 
-![Football Match Results](public/assets/football-match-results2.gif)
+![Football Match Results](public/assets/football-match-results3.gif)
 
 ## Technologies Used
 
