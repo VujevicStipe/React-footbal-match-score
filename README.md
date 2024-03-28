@@ -10,6 +10,10 @@ You can view the live demo of the project [here](https://spectacular-daifuku-b1d
 
 The Football Match Results application is designed to provide users with a platform to start and manage football matches, record scores for each team during the match, and select the player who has scored a goal. Team data is fetched from a JSON file (`Teams.json`) to provide information about the teams involved.
 
+## Video GIF Showcase
+
+![Football Match Results](assets/football-match-results.gif)
+
 ## Technologies Used
 
 - React with TypeScript: Used for building the frontend interface and managing state.
